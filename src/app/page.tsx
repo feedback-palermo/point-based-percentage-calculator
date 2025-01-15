@@ -146,15 +146,15 @@ const CalcolatoreOfferte = () => {
         {titolo.includes("Proporzionale") ? (
           <p className="text-gray-600 text-sm">
             Questo metodo calcola i punteggi in modo direttamente proporzionale al rapporto tra le percentuali offerte. 
-            L'offerta più alta riceve 30 punti, mentre l'altra offerta riceve un punteggio proporzionalmente ridotto 
-            in base al rapporto tra le due percentuali (es: se un'offerta è del 40% e l'altra del 80%, la prima riceverà 15 punti).
+            L&apos;offerta più alta riceve 30 punti, mentre l&apos;altra offerta riceve un punteggio proporzionalmente ridotto 
+            in base al rapporto tra le due percentuali (es: se un&apos;offerta è del 40% e l&apos;altra del 80%, la prima riceverà 15 punti).
           </p>
         ) : (
           <p className="text-gray-600 text-sm">
             Questo metodo calcola i punteggi basandosi sulla differenza percentuale tra le due offerte. 
-            L'offerta più alta riceve sempre 30 punti, mentre l'offerta più bassa viene penalizzata in base 
+            L&apos;offerta più alta riceve sempre 30 punti, mentre l&apos;offerta più bassa viene penalizzata in base 
             alla differenza percentuale tra le due offerte. La penalizzazione è pari alla metà della differenza percentuale 
-            (es: con una differenza del 10%, l'offerta più bassa riceve 25 punti).
+            (es: con una differenza del 10%, l&apos;offerta più bassa riceve 25 punti).
           </p>
         )}
       </CardHeader>
